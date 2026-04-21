@@ -81,8 +81,16 @@ const FOOTER_GROUPS = [
     "Product",
     [
       ["Download", "https://liberdus.com"],
-      ["Tokenomics", "https://liberdus.com/tokenomics/"],
+      ["Tokenomics", null],
       ["Testnet", "https://liberdus.com"],
+    ],
+  ],
+  [
+    "Company",
+    [
+      ["About", null],
+      ["Team", null],
+      ["Roadmap", null],
     ],
   ],
   [
@@ -212,9 +220,11 @@ FOOTER_GROUPS.forEach(([label, links]) => {
   const linksWrap = el("div", { class: "footer-group-links" });
 
   links.forEach(([text, href]) => {
-    linksWrap.appendChild(
-      el("a", { href, target: "_blank", rel: "noreferrer" }, text)
-    );
+    const node = href
+      ? el("a", { href, target: "_blank", rel: "noreferrer" }, text)
+      : el("span", { class: "is-placeholder" }, text);
+
+    linksWrap.appendChild(node);
   });
 
   footerGroups.appendChild(
