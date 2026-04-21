@@ -256,7 +256,7 @@ button {
 }
 
 .hero h1 {
-  max-width: 405px;
+  max-width: 460px;
   font-size: 56px;
   font-weight: 800;
   line-height: 1.02;
@@ -723,8 +723,8 @@ button {
 }
 
 .footer-brand-logo img {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
 }
 
