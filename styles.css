@@ -256,7 +256,7 @@ button {
 }
 
 .hero h1 {
-  max-width: 400px;
+  max-width: 460px;
   font-size: 56px;
   font-weight: 800;
   line-height: 1.02;
@@ -269,7 +269,7 @@ button {
   line-height: 1.75;
   color: var(--muted);
   margin-bottom: 34px;
-  max-width: 460px;
+  max-width: 500px;
 }
 
 .ctas {
