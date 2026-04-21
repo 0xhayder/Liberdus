@@ -252,10 +252,11 @@ button {
 
 .hero-text {
   padding: 8px 0;
+  max-width: 540px;
 }
 
 .hero h1 {
-  max-width: 620px;
+  max-width: 460px;
   font-size: 56px;
   font-weight: 800;
   line-height: 1.02;
@@ -268,7 +269,7 @@ button {
   line-height: 1.75;
   color: var(--muted);
   margin-bottom: 34px;
-  max-width: 510px;
+  max-width: 500px;
 }
 
 .ctas {
@@ -835,10 +836,12 @@ button {
 
   .hero-text {
     padding: 0;
+    max-width: 100%;
   }
 
   .hero h1 {
     font-size: 38px;
+    max-width: 100%;
     letter-spacing: -1.4px;
     line-height: 1.08;
   }
