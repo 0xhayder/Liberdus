@@ -1,2 +1,0 @@
-# Liberdus
-Liberdus Landing Page
