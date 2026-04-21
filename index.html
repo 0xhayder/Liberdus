@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <title>Liberdus - Quantum-Secure Decentralized Messaging</title>
+    <meta
+      name="description"
+      content="A decentralized messaging app built for people who care about privacy and control, without relying on centralized servers."
+    />
+    <meta
+      property="og:title"
+      content="Liberdus - Quantum-Secure Decentralized Messaging"
+    />
+    <meta
+      property="og:description"
+      content="A decentralized messaging app built for people who care about privacy and control."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/opengraph.jpg" />
+    <link rel="icon" type="image/png" href="assets/liberdus-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <span id="top"></span>
+
+    <nav class="nav-bar" id="navbar">
+      <a href="#top" class="nav-logo">
+        <img src="assets/liberdus-logo.png" alt="Liberdus" />
+        <span class="nav-logo-text">Liberdus</span>
+      </a>
+      <div class="nav-links desktop-only">
+        <a href="#features">Features</a>
+        <a href="#why">Why</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a
+        class="nav-cta desktop-only"
+        href="https://liberdus.com"
+        target="_blank"
+        rel="noreferrer"
+        >Download</a
+      >
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#why">Why</a>
+      <a class="nav-link" href="#how">How it works</a>
+      <a class="nav-link" href="#faq">FAQ</a>
+      <a
+        class="mobile-menu-primary"
+        href="https://liberdus.com"
+        target="_blank"
+        rel="noreferrer"
+        >Download App</a
+      >
+      <a
+        class="mobile-menu-secondary"
+        href="https://github.com/Liberdus"
+        target="_blank"
+        rel="noreferrer"
+        >View Docs</a
+      >
+    </div>
+
+    <section class="hero">
+      <div class="hero-text reveal">
+        <h1>Messaging that puts privacy first.</h1>
+        <p class="lead">
+          A decentralized messaging app built for people who care about privacy
+          and control, without relying on centralized servers.
+        </p>
+        <div class="ctas">
+          <a
+            class="btn-primary desktop-only"
+            href="https://liberdus.com"
+            target="_blank"
+            rel="noreferrer"
+            >Download App</a
+          >
+          <a
+            class="btn-link"
+            href="https://github.com/Liberdus"
+            target="_blank"
+            rel="noreferrer"
+            >View Docs &rarr;</a
+          >
+        </div>
+        <p class="hero-meta">iOS &middot; Android &middot; Open source</p>
+      </div>
+      <div class="hero-phone-wrap reveal">
+        <div class="hero-phone">
+          <div class="hero-phone-inner">
+            <div class="hero-phone-notch"><div></div></div>
+            <img src="assets/liberdus-chat.png" alt="Liberdus app" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <div class="features-header reveal">
+          <h2 class="section-title">What makes it different.</h2>
+          <a
+            href="https://github.com/Liberdus"
+            target="_blank"
+            rel="noreferrer"
+            class="section-link"
+            >Read the source &rarr;</a
+          >
+        </div>
+        <div class="features-list" id="featuresList"></div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Why Liberdus</p>
+          <h2 class="section-title-lg">Built differently, on purpose.</h2>
+        </div>
+        <div class="why-grid">
+          <div class="reveal">
+            <p class="why-lead">
+              Other apps protect your messages but still hold them. Liberdus
+              doesn't hold anything.
+            </p>
+            <p class="why-body">
+              Your messages route through a decentralized mesh, your identity is
+              a key only you control, and there's no company that can be
+              coerced into giving either one up. Privacy isn't a setting - it's
+              the architecture.
+            </p>
+          </div>
+          <div class="why-list reveal" id="whyList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 class="section-title-lg">Three steps. No friction.</h2>
+        </div>
+        <div class="how-grid" id="howGrid"></div>
+        <div class="how-mobile" id="howMobile">
+          <div class="how-mobile-rail"></div>
+        </div>
+        <div class="how-cta reveal desktop-only">
+          <a
+            class="btn-soft"
+            href="https://liberdus.com"
+            target="_blank"
+            rel="noreferrer"
+            >Get Started Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container container-narrow">
+        <div class="section-header reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section-title">Questions.</h2>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-brand-logo">
+              <img src="assets/liberdus-logo.png" alt="Liberdus" />
+              <span>Liberdus</span>
+            </div>
+            <p>
+              Messaging that puts privacy first. Quantum-secure, decentralized,
+              open source.
+            </p>
+          </div>
+          <div class="footer-groups" id="footerGroups"></div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; <span id="year"></span> Liberdus</span>
+          <span class="footer-tag"
+            >Built to outlast the organizations trying to stop it.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-cta-bar">
+      <a
+        class="mobile-cta-secondary"
+        href="https://github.com/Liberdus"
+        target="_blank"
+        rel="noreferrer"
+        >Docs</a
+      >
+      <a
+        class="mobile-cta-primary"
+        href="https://liberdus.com"
+        target="_blank"
+        rel="noreferrer"
+        >Download App</a
+      >
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
