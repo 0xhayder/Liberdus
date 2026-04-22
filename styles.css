@@ -332,8 +332,9 @@ button {
 .hero-phone {
   width: 272px;
   border-radius: 42px;
-  background: #fff;
+  background: var(--bg-alt);
   padding: 10px;
+  border: 1px solid rgba(239, 229, 210, 0.95);
   box-shadow:
     0 2px 0 1px var(--divider),
     0 34px 74px rgba(26, 20, 16, 0.12),
